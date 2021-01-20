@@ -1,0 +1,174 @@
+#navbarContainer {
+  background-color: #1c2e36 !important;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 2rem;
+  max-height: 100px;
+  width: stretch;
+}
+
+#navbar {
+  max-width: 1140px;
+}
+
+.mainLogo {
+  height: 5rem;
+}
+.mainLogo:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.navName {
+  font-size: 2rem;
+  color: #b0c8d4;
+  font-size: xx-large;
+  font: bold;
+  transition: 1s;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #81939b;
+}
+
+.navName:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.firstWord:hover {
+  color: white;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.secondWord:hover {
+  color: #f4f4f4;
+}
+
+#navSearchSubmitButton {
+  margin-left: 20px;
+  height: 48px;
+}
+
+.navButton {
+  height: 48px;
+}
+.feedNavButton {
+  margin-top: 3px;
+}
+/* @media (max-width: 991px) {
+  #navbarContainer {
+    max-height: 200px;
+    height: 200px;
+  }
+} */
+
+@media (max-width: 991px) {
+  #navbarContainer {
+    height: 340px;
+    max-height: 250px;
+  }
+  .feedNavButton {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #navbar {
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media (max-width: 514px) {
+  #navbarContainer {
+    max-height: 280px;
+    height: 280px;
+  }
+  #navbar {
+    display: inline-block;
+    text-align: center;
+  }
+  .feedNavButton {
+    width: stretch;
+  }
+  .navUserButtons {
+    margin-top: 5px;
+  }
+
+  .accountButton {
+    width: 49%;
+  }
+  .loginLogoutButton {
+    width: 49%;
+  }
+}
+
+.accountButton {
+}
+.loginLogoutButton {
+}
+
+/* Suggestion box div: */
+#navSearch {
+  border-radius: 0;
+  border-color: #b0c8d4;
+  width: 408px;
+}
+
+.searchContainerDiv {
+  display: grid;
+  z-index: 1;
+  position: absolute;
+  width: 408px;
+}
+
+.navSuggestionDiv {
+  background-color: white;
+}
+.suggestionDiv {
+  background-color: white;
+  padding: 5px;
+  font-size: large;
+}
+.suggestionsContainer a > div:hover {
+  background-color: #477387;
+  color: white;
+  text-decoration: none;
+}
+
+.suggestionAvatar {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.suggestionsContainer a {
+  background-color: #f4f4f4;
+  color: #495057;
+  text-decoration: none;
+}
+
+.suggestionsContainer:hover {
+  background-color: #477387;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.suggestionsContainer {
+  background-color: white;
+  color: #495057;
+  border-color: #b0c8d4;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px;
+  text-decoration: none;
+  font-size: large;
+}
+
+/*   --col-a: #1c2e36;
+  --col-b: #81939b;
+  --col-c: #477387;
+  --col-d: #b0c8d4;
+  --col-e: #2d4854; */

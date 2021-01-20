@@ -1,0 +1,17 @@
+.custom-search-list {
+    list-style-type: none;
+}
+
+.custom-img-list {
+    float: left;
+    width: 2em;
+    height: 2em;
+    margin-right: 1rem;
+}
+
+.custom-card-list {
+    width: 30rem;
+    background-color: var(--col-e);
+    margin: 0 auto;
+    border-radius: 1rem;
+}

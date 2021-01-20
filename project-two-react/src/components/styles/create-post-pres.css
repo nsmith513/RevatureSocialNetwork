@@ -1,0 +1,36 @@
+.card.create-post {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--col-e);
+  text-align: center;
+}
+
+.postInputForm {
+  text-align: center;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 38px;
+}
+
+#inputsContainer1 {
+  max-width: 100%;
+}
+
+.createPostHeader {
+  font-size: xxx-large;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #81939b;
+}
+
+.cancleCreateButton {
+  width: 40%;
+  margin-right: 5px;
+}
+.createPostButton {
+  width: 40%;
+  margin-left: 5px;
+}

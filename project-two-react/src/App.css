@@ -1,0 +1,103 @@
+/* define global theme colors */
+:root {
+  --col-a: #1c2e36;
+  --col-b: #81939b;
+  --col-c: #477387;
+  --col-d: #b0c8d4;
+  --col-e: #2d4854;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* BG taken from https://freefrontend.com/css-background-patterns/ */
+body {
+  --c: rgba(54, 75, 85, 0.7);
+  --t: transparent;
+  background-image: repeating-linear-gradient(
+      45deg,
+      var(--t) 0,
+      var(--t) 32px,
+      var(--c) 32px,
+      var(--c) 44px,
+      var(--t) 44px,
+      var(--t) 56px,
+      var(--c) 56px,
+      var(--c) 68px,
+      var(--t) 0
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      var(--t) 0,
+      var(--t) 32px,
+      var(--c) 32px,
+      var(--c) 44px,
+      var(--t) 44px,
+      var(--t) 56px,
+      var(--c) 56px,
+      var(--c) 68px,
+      var(--t) 0
+    ),
+    linear-gradient(to bottom left, var(--col-b), var(--col-c));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+.feedHeader {
+  font-size: xxx-large;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #81939b;
+  text-align: center;
+}
+.feedHeader1 {
+  font-size: xx-large;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #81939b;
+  text-align: left;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

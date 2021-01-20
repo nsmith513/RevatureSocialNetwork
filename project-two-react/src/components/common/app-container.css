@@ -1,0 +1,4 @@
+.container.app-container {
+    background-color: var(--col-a);
+    padding: 1rem;
+}

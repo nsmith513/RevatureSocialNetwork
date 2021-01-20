@@ -1,0 +1,43 @@
+.container.container-profile {
+  padding: 1rem;
+  background-color: var(--col-e);
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.leftProfileColumn {
+  display: grid;
+}
+
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileUserName {
+  font-size: large;
+}
+.rightProfileColumn {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.horizontalRule {
+  color: #1c2e36;
+  background-color: #1c2e36;
+  height: 1;
+  width: 60%;
+}
+
+.profileHeader {
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: xxx-large;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #477387;
+}
+
+.userProfileInfo {
+  font-size: x-large;
+}

@@ -1,0 +1,24 @@
+.card.login-card {
+  margin: 4vh 2rem 0 2rem;
+  width: 24rem;
+  background-color: var(--col-e);
+}
+
+.loginSubmitButton {
+  width: 100%;
+}
+
+.goToRegisterButton {
+  width: 100%;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.loginCardHeader {
+  font-size: xxx-large;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #81939b;
+}

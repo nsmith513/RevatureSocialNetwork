@@ -1,0 +1,37 @@
+.edit-profile-card {
+  width: 30rem;
+  background-color: var(--col-e);
+  margin: 0 auto;
+  border-radius: 2em;
+}
+
+.edit-custom-img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.userProfile {
+  display: inline-grid;
+}
+
+.userProfile > h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #477387;
+}
+.updateProfileAvatarImage {
+  margin-left: auto;
+}
+.updateProfileImage {
+  width: 200px;
+  height: 36px;
+}
+
+.profileSubmitButtonContainer {
+}
+.updateProfileSubmitButton {
+  margin-left: auto;
+  width: 100%;
+}
