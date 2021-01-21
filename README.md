@@ -44,6 +44,24 @@ REACT_APP_REGION=YOUR_AWS_S3_BUCKET_REGION_HERE
 * Compile ProjectTwoSTS with Maven and deploy to Tomcat on whichever port you defined for `REACT_APP_API_URL`
 * Start React server with `npm start`
 
+## Usage
+
+Employees can login and navigate using the navbar.
+
+<p>
+   <kbd><img src="screenshots/login.png" height="400"/></kbd>
+   <kbd><img src="screenshots/navbar.gif" height="400"/></kbd>
+</p>
+
+Users can view the posts and profiles of themselves and other users as well as the global feed.
+
+<p>
+   <kbd><img src="screenshots/profile.png" height="400"/></kbd>
+   <br/>
+   <br/>
+   <kbd><img src="screenshots/feed.png" height="400"/></kbd>
+</p>
+
 ## License
 
 Created by Jasmine Kocacal, Nicholas Smith, Nikolaus Arboleda and Zachary Jamison, licenced under Apache 2.0: https://www.apache.org/licenses/LICENSE-2.0.html
