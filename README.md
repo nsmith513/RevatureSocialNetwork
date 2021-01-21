@@ -29,21 +29,20 @@ In Revature's Social Network everyone is friends with everyone else. Users can r
 * Clone project with `git clone https://github.com/nsmith513/RevatureSocialNetwork.git`
 * Set up back-end environment variables:
 ```
-  DB_URL=YOUR_DB_URL_HERE
-  DB_USERNAME=YOUR_USERNAME_HERE
-  DB_PASSWORD=YOUR_PASSWORD_HERE
+DB_URL=YOUR_DB_URL_HERE
+DB_USERNAME=YOUR_USERNAME_HERE
+DB_PASSWORD=YOUR_PASSWORD_HERE
 ```
 * Set up front-end envoirnment variables:
 ```
-  REACT_APP_API_URL=http://localhost:TOMCAT_PORT/
-  REACT_APP_ACCESS_ID=YOUR_AWS_S3_BUCKET_ACCESS_ID_HERE
-  REACT_APP_ACCESS_KEY=YOUR_AWS_S3_BUCKET_ACCESS_KEY_HERE
-  REACT_APP_BUCKET_NAME=YOUR_AWS_S3_BUCKET_NAME_HERE
-  REACT_APP_REGION=YOUR_AWS_S3_BUCKET_REGION_HERE
+REACT_APP_API_URL=http://localhost:TOMCAT_PORT/
+REACT_APP_ACCESS_ID=YOUR_AWS_S3_BUCKET_ACCESS_ID_HERE
+REACT_APP_ACCESS_KEY=YOUR_AWS_S3_BUCKET_ACCESS_KEY_HERE
+REACT_APP_BUCKET_NAME=YOUR_AWS_S3_BUCKET_NAME_HERE
+REACT_APP_REGION=YOUR_AWS_S3_BUCKET_REGION_HERE
 ```
 * Compile ProjectTwoSTS with Maven and deploy to Tomcat on whichever port you defined for `REACT_APP_API_URL`
 * Start React server with `npm start`
-
 
 ## License
 
