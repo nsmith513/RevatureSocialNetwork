@@ -49,14 +49,14 @@ REACT_APP_REGION=YOUR_AWS_S3_BUCKET_REGION_HERE
 Employees can login and navigate using the navbar.
 
 <p>
-   <kbd><img src="screenshots/login.png" height="400"/></kbd>
-   <kbd><img src="screenshots/navbar.gif" height="400"/></kbd>
+   <kbd><img src="screenshots/login.png" height="300"/></kbd>
+   <kbd><img src="screenshots/navbar.gif" height="300"/></kbd>
 </p>
 
 Users can view the posts and profiles of themselves and other users as well as the global feed.
 
 <p>
-   <kbd><img src="screenshots/profile.png" height="400"/></kbd>
+   <kbd><img src="screenshots/profile.png" height="500"/></kbd>
    <br/>
    <br/>
    <kbd><img src="screenshots/feed.png" height="400"/></kbd>
